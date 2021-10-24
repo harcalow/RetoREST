@@ -7,7 +7,7 @@ Feature: Yo como usuario quiero obtener la información de mis fotos.
     Then El deberá obtener todos los datos solicitados con el codigo de respuesta 200.
 
 
-  Scenario: Verificar título
+  Scenario: Consulta título
 
     Given El usuario ha definido quiere verificar el titulo de id 1
     When El usuario envía la solicitud
